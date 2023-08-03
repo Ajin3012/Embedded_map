@@ -1,0 +1,150 @@
+*{
+	margin:0 auto;
+	padding:0;
+	box-sizing:border-box;
+	font-family:arial,Sans-serif;
+}	
+.container{
+	width:90%;
+	margin:0 auto;
+	padding-left:30px;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.col-1{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-2{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-3{
+	width:25%;
+	padding:0 15px;
+}
+.col-4{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-5{
+	
+	width:41.66%;
+	padding:0 15px;
+}
+.col-6{
+	width:50%;
+	padding:0 15px;
+}
+.col-7{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-8{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-9{
+	width:75%;
+	padding:0 15px;
+}
+.col-10{
+	width:83.33%;
+	padding:0 15px;
+}
+.col-11{
+	width:91.66%;
+	padding:0 15px;
+}
+.col-12{
+	width:100%;
+	padding:0 15px;
+}
+.pad{
+	padding-top:50px;
+}
+body{
+	height:100vh;
+	background:linear-gradient(#00000021,#00000021),url("../images/bg-image.jpg");
+	background-position-y:96%;
+	background-size:cover;
+}
+iframe{
+	height:56vh;
+	width:90%;
+}
+h1{
+	font-family: 'Rubik', sans-serif;
+	font-size:36px;
+	font-weight:500;
+}
+h4{
+	font-family: 'Rubik', sans-serif;
+	padding-top:20px;
+	font-size:18px;
+	font-weight:700;
+}
+.cnt h4{
+	display:flex;
+	align-items:center;
+	padding-right:46%;
+}
+.bi-envelope{
+	font-size:42px;
+	padding-right:10px;
+}
+h5{
+	font-family: 'Rubik', sans-serif;
+	padding-top:20px;
+	font-size:14px;
+	font-weight:700;
+}
+h6{
+	color:#6d6969;
+	padding-top:10px;
+	font-size:14px;
+}
+.form{
+	padding-top:20px;
+}
+#name{
+	padding:16px 40px 16px 5px;
+	color:#6d6969;
+	border:none;
+	font-size:14px;
+}
+#phone{
+	padding:16px 40px 16px 5px;
+	color:#6d6969;
+	border:none;
+	font-size:14px;
+}
+#email{
+	padding:16px 45.5% 16px 5px;
+	color:#6d6969;
+	border:none;
+	font-size:14px;
+	margin-top:10px;
+}
+#message{
+	padding:16px 45.5% 15% 5px;
+	color:#6d6969;
+	border:none;
+	font-size:14px;
+	margin-top:10px;
+}
+button{
+	padding:16px 40px 16px 40px;
+	margin-top:10px;
+	align-items:center;
+	border:none;
+	background-color:#00a9fc;
+	color:white;
+	font-size:16px;
+	font-weight:500;
+	font-family: 'Quicksand', sans-serif;
+	margin-left:20%;
+}
